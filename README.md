@@ -4,7 +4,7 @@
 
 The vanilla-styled TAL MFD panel appears beside the maximized map. F7 opens
 standalone controls, including when no spare MFD button exists. Donate / Vehicles
-also links to purchases. No other wingman mod is required.
+also links to purchases. 
 
 REINFORCEMENTS selects aircraft, mission loadout and Workshop livery, displays
 allocation/cost and orders/cancels purchases. Order before deployment or while flying.
