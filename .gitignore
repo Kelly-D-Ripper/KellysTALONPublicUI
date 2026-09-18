@@ -1,0 +1,13 @@
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.dll
+*.pdb
+*.cfg
+*.db
+*.sqlite*
+*.log
+.env*
+dist/
