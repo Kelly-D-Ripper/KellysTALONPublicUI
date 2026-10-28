@@ -2,16 +2,15 @@
 
 **Tactical Airborne Leadership & Operations Network**
 
+UI 0.8.7 is rebuilt against Nuclear Option 0.34.5 and uses TALON protocol 15. Automated compatibility checks passed; multiplayer purchase and wingman-order testing remains pending.
+
 The vanilla-styled TAL MFD panel appears beside the maximized map. F7 opens
 standalone controls, including when no spare MFD button exists. Donate / Vehicles
 also links to purchases. 
 
 REINFORCEMENTS selects aircraft, mission loadout and Workshop livery, displays
 allocation/cost and orders/cancels purchases. Order before deployment or while flying.
-Three active and queued wingmen share the limit. Prices now show **full airframe
-value plus selected weapons/equipment**, quoted by the server. The airframe component
-is four times the former testing price. Paired pylons, rack costs and ammunition are
-included. Wait for the total after selecting a preset; quotes never debit allocation.
+Three active and queued wingmen share the limit. Prices are quoted by the server and include the airframe and selected weapons/equipment, with any server discount applied. Paired pylons, rack costs and ammunition are included. Wait for the total after selecting a preset; quotes never debit allocation.
 Protocol 14 and older are incompatible; update both server and client.
 
 ORDERS shows individual callsigns/status and ALL/individual command scope:

@@ -16,8 +16,8 @@ public sealed partial class Plugin : BaseUnityPlugin
 {
     public const string Guid = "kelly.nuclearoption.talon.publicui";
     public const string Name = "Kelly's TALON Public UI";
-    public const string Version = "0.8.6-rc.3";
-    public const string LoaderVersion = "0.8.6.3";
+    public const string Version = "0.8.7";
+    public const string LoaderVersion = "0.8.7.0";
 
     private const int PurchaseOperation = 0;
     private const int CancelOperation = 1;
