@@ -2,7 +2,7 @@
 
 **Tactical Airborne Leadership & Operations Network**
 
-UI 0.8.7 is rebuilt against Nuclear Option 0.34.5 and uses TALON protocol 15. Automated compatibility checks passed; multiplayer purchase and wingman-order testing remains pending.
+UI 0.8.8 is rebuilt against Nuclear Option 0.34.5 and uses TALON protocol 15. Automated compatibility checks passed; multiplayer purchase and wingman-order testing remains pending.
 
 The vanilla-styled TAL MFD panel appears beside the maximized map. F7 opens
 standalone controls, including when no spare MFD button exists. Donate / Vehicles

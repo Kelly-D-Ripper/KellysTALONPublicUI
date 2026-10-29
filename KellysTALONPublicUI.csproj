@@ -6,9 +6,9 @@
     <ImplicitUsings>disable</ImplicitUsings>
     <AssemblyName>KellysTALONPublicUI</AssemblyName>
     <RootNamespace>KellysTALONPublicUI</RootNamespace>
-    <Version>0.8.7</Version>
-    <AssemblyVersion>0.8.7.0</AssemblyVersion>
-    <FileVersion>0.8.7.0</FileVersion>
+    <Version>0.8.8</Version>
+    <AssemblyVersion>0.8.8.0</AssemblyVersion>
+    <FileVersion>0.8.8.0</FileVersion>
     <Product>Kelly's TALON Public UI</Product>
     <Description>Original public client interface for Kelly's TALON servers.</Description>
     <GameDir Condition="'$(GameDir)' == '' and '$(NUCLEAR_OPTION_DIR)' != ''">$(NUCLEAR_OPTION_DIR)</GameDir>
@@ -19,6 +19,7 @@
     <Error Condition="!Exists('$(ManagedDir)\Assembly-CSharp.dll')" Text="GameDir does not contain Nuclear Option managed assemblies." />
   </Target>
   <ItemGroup>
+    <EmbeddedResource Include="TALON.doorman.json" LogicalName="doorman.json" />
     <Compile Remove="tests\**\*.cs" />
     <PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.3" PrivateAssets="all" />
     <Reference Include="Assembly-CSharp" HintPath="$(ManagedDir)\Assembly-CSharp.dll" Private="false" Publicize="true" />

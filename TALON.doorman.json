@@ -1,0 +1,14 @@
+{
+  "plugin": "kelly.nuclearoption.talon.publicui",
+  "name": "Kelly's TALON Public UI",
+  "author": "Brig. Gen. Kelly D. Ripper",
+  "description": "Requisition and command AI wingmen through a vanilla-style map panel. Direct their formations, attack targets, order them back to base and command equipped aircraft to jam enemy radar. Exclusive to the Aryx Shipyard dedicated server.",
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/Kelly-D-Ripper/KellysTALONPublicUI" },
+    { "label": "Discord", "url": "https://discord.gg/shipyard" }
+  ],
+  "update": {
+    "repository": "Kelly-D-Ripper/KellysTALONPublicUI",
+    "asset": "KellysTALONPublicUI-*-NO*.zip"
+  }
+}
